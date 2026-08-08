@@ -1,0 +1,10 @@
+data:
+  path: data/employee_attrition.csv
+  target: Attrition
+
+model:
+  n_estimators: 200
+  max_depth: 8
+
+training:
+  test_size: 0.2
