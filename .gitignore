@@ -1,0 +1,73 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Virtual environments
+venv/
+.env/
+.envrc
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# -------------------------
+# DVC
+# -------------------------
+# Ignore actual data, models, and artifacts
+data/
+models/
+artifacts/
+mlruns/
+
+# Allow DVC pointer files
+*.dvc
+.dvc/
+
+# -------------------------
+# MLflow
+# -------------------------
+mlruns/
+mlartifacts/
+
+# -------------------------
+# Cache / Temp
+# -------------------------
+.cache/
+.tmp/
+temp/
+tmp/
+
+# -------------------------
+# OS-specific
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# IDE / Editor
+# -------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -------------------------
+# Reports
+# -------------------------
+reports/*.html
+reports/*.json
+
+# -------------------------
+# Build
+# -------------------------
+dist/
+build/
