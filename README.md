@@ -1,5 +1,7 @@
-README.md — Employee Attrition MLOps Pipeline
+README.md — Employee Attrition MLOps Pipeline 
+
 📌 Project Overview
+
 This repository contains a complete, end‑to‑end MLOps pipeline built around the IBM HR Analytics Employee Attrition dataset (Kaggle).
 The goal is to predict whether an employee will leave the company (binary classification) while demonstrating production‑grade ML engineering practices:
 
